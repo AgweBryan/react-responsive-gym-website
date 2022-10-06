@@ -1,0 +1,50 @@
+.join {
+  display: flex;
+  padding: 0 2rem;
+  gap: 10rem;
+}
+.join__left {
+  color: white;
+  font-size: 3rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  position: relative;
+}
+.join__left > hr {
+  position: absolute;
+  width: 10.5rem;
+  border: 2px solid var(--orange);
+  border-radius: 20%;
+  margin: -10px 0;
+}
+.join__right {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  flex: 1;
+}
+.join__right .email-container {
+  display: flex;
+  gap: 3rem;
+  background-color: grey;
+  padding: 1rem 2rem;
+}
+.join__right .email-container > input {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  color: var(--lightgray);
+}
+.join__right .email-container > input::-moz-placeholder {
+  color: var(--lightgray);
+}
+.join__right .email-container > input:-ms-input-placeholder {
+  color: var(--lightgray);
+}
+.join__right .email-container > input::placeholder {
+  color: var(--lightgray);
+}
+.join__right .email-container .btn-join {
+  background-color: var(--orange);
+  color: white;
+}/*# sourceMappingURL=join.css.map */
