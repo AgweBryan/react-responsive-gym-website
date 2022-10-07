@@ -9,6 +9,7 @@ import Calories from "../../assets/calories.png";
 export const Hero = () => {
   return (
     <div className="hero">
+      <div className="blur hero__blur"></div>
       <div className="hero__left">
         <Header />
         {/* the best ad start */}

@@ -6,6 +6,8 @@ import whiteTick from "../../assets/whiteTick.png";
 export const Plans = () => {
   return (
     <div className="plans_section">
+      <div className="blur blur1"></div>
+      <div className="blur blur2"></div>
       {/* Plans header start */}
       <div className="plans_section__plans-header">
         <span className="stroke-text">READY TO START</span>

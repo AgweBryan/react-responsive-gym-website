@@ -2,6 +2,12 @@
   display: flex;
   justify-content: space-between;
 
+  &__blur {
+    width: 22rem;
+    height: 30rem;
+    left: 0;
+  }
+
   &__left {
     padding: 2rem;
     padding-top: 1.5rem;
